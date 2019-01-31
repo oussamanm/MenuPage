@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)https://html.liviucerchez.com/metro-layout/ -->
+<html lang="en" class="csstransforms csstransforms3d csstransitions"><link type="text/css" id="dark-mode" rel="stylesheet" href="https://html.liviucerchez.com/metro-layout/"><style type="text/css" id="dark-mode-custom-style"></style><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+	
+	<title>Metro Flexible Navigation</title> 
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<link rel="stylesheet" type="text/css" media="all" href="./src/metro.css">
+	<script src="./src/jquery.min.js"></script>
+	<script src="./src/jquery.plugins.min.js"></script>
+	<script src="./src/metro.js"></script>
+	<!--[if lt IE 9]>
+		<script src="js/respond.min.js"></script>
+	<![endif]-->
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.vertical{
+	background-image: url("./src/walpappers3.jpg");
+	background-position: center;
+	background-size: cover;
+}
+</style>
+
+</head> 
+<body>
+	<div class="metro-layout vertical">
+		<div class="header">
+			<h1>Home</h1>
+			<div class="controls">
+				<span class="down" title="Scroll down" style="display: none;"></span>
+				<span class="up" title="Scroll up" style="display: none;"></span>
+				<span class="next" title="Scroll left" style="display: none;"></span>
+				<span class="prev" title="Scroll right" style="display: none;"></span>
+				<span class="toggle-view" title="Toggle layout"></span>
+			</div>
+		</div>
+		<div class="content clearfix">
+			<div class="items isotope" style="width: auto; height: 640px;">
+				<a class="box isotope-item" href="https://outlook.live.com/mail/inbox" target="_blank" style="position: absolute; left: 0px; top: 0px; transform: translate3d(20px, 0px, 0px);">
+					<span>Outlook</span>
+					<img class="icon" src="./src/mail2.png" alt="" style="width: 26%; position: absolute; top: 0; bottom:0; left: 0; right:0; margin: auto;">
+				</a>
+				<a class="box isotope-item" href="https://futureisloading.slack.com" target="_blank" style="background: rgb(75,51,75); position: absolute; left: 0px; top: 0px; transform: translate3d(292px, 0px, 0px);">
+					<span>Slack</span>
+					<img class="icon" src="./src/slack.png" alt="" style="width: 30%; position: absolute; top: 0; bottom:0; left: 0; right:0; margin: auto;">
+				</a>
+				<a class="box isotope-item" href="https://translate.google.co.ma/" target="_blank" style="background: rgb(67, 181, 31); position: absolute; left: 0px; top: 0px; transform: translate3d(564px, 0px, 0px);">
+					<span>Google Translate</span>
+					<img class="icon" src="./src/translate.png" alt="" style="width: 30%; position: absolute; top: 0; bottom:0; left: 0; right:0; margin: auto;">
+				</a>
+				<a class="box width2 height2 isotope-item" href="https://profile.intra.42.fr/" target="_blank" style="background: rgb(255, 255, 255);">
+					<span>Intra 42</span>
+					<img class="cover" src="./src/42.png" alt="" style="width: 60%; position: absolute; top: 0; bottom:0; left: 0; right:0; margin: auto;">
+				</a>
+				<a class="box isotope-item" href="https://www.spotify.com/ma-fr/" target="_blank" style="background: rgb(93, 93, 93); position: absolute; left: 0px; top: 0px; transform: translate3d(1380px, 0px, 0px);">
+					<span>Spotify</span>
+					<img class="icon" src="./src/music.png" style="width: 60%; position: absolute; top: 0; bottom:0; left: 0; right:0; margin: auto;">
+				</a>
+				<a class="box isotope-item" href="https://www.google.com/" target="_blank" style="background: rgb(219, 219, 219); position: absolute; left: 0px; top: 0px; transform: translate3d(1652px, 0px, 0px);">
+					<span>Google</span>
+					<img class="icon" src="./src/google.png" alt="" style="width: 26%; position: absolute; top: 0; bottom:0; left: 0; right:0; margin: auto;">
+				</a>
+				<a class="box isotope-item" href="https://github.com/" target="_blank" style="background: rgb(244,81,30); position: absolute; left: 0px; top: 0px; transform: translate3d(20px, 160px, 0px);">
+					<span>Git</span>
+					<img class="icon" src="./src/git.png" alt="" style="width: 32%; position: absolute; top: 0; bottom:0; left: 0; right:0; margin: auto;">
+				</a>
+				<a class="box height2 isotope-item" href="https://mail.google.com/mail/" target="_blank" style="background: rgb(211, 44, 44); position: absolute; left: 0px; top: 0px; transform: translate3d(292px, 160px, 0px);">
+					<span>GMail</span>
+					<img class="icon big" src="./src/gmail.png" alt="">
+				</a>
+				<a class="box isotope-item" href="https://www.facebook.com/" target="_blank" style="background: rgb(60, 91, 155); position: absolute; left: 0px; top: 0px; transform: translate3d(564px, 160px, 0px);">
+					<span>Facebook</span>
+					<img class="icon" src="./src/facebook.png" alt="">
+				</a>
+				<a class="box isotope-item" href="https://www.youtube.com/" target= "_blank" style="background: rgb(248, 248, 248); position: absolute; left: 0px; top: 0px; transform: translate3d(1380px, 160px, 0px);">
+					<span>Youtube</span>
+					<img class="icon" src="./src/youtube.png" alt="" style="width: 35%; position: absolute; top: 0; bottom:0; left: 0; right:0; margin: auto;">
+				</a>
+				<a class="box isotope-item" href="https://to-do.microsoft.com/" target="_blank" style="background: rgb(0, 169, 236); position: absolute; left: 0px; top: 0px; transform: translate3d(1652px, 160px, 0px);">
+					<span>Tasks</span>
+					<img class="icon" src="./src/tasks.png" alt="">
+				</a>
+				<a class="box height2 isotope-item" href="https://1337.ma/en/home/" target="_blank" style="background: rgb(0, 0, 0); position: absolute; left: 0px; top: 0px; transform: translate3d(20px, 320px, 0px);">
+					<span>1337</span>
+					<img class="icon big" src="./src/1337.png" alt="" align="" style="width: 50%; position: absolute; top: 0; bottom:0; left: 0; right:0; margin: auto;">
+				</a>
+				<a class="box isotope-item" href="https://twitter.com/" target="_blank" style="background: rgb(52,152,219); position: absolute; left: 0px; top: 0px; transform: translate3d(564px, 320px, 0px);">
+					<span>Twitter</span>
+					<img class="icon" src="./src/twitter.png" alt="" style="width: 26%; position: absolute; top: 0; bottom:0; left: 0; right:0; margin: auto;">
+				</a>
+			</div>
+		</div>
+	</div>
+
+
+</body></html>
